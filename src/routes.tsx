@@ -1,3 +1,4 @@
+// Page Elements
 import Introduction from './elements/introduction'
 import Customize from './elements/customize'
 

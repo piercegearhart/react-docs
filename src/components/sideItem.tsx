@@ -11,7 +11,7 @@ const Item: React.FC<Props> = ({path, routes, children}) => {
     const route = useLocation()
     const classes = path === route.pathname ? 'border-l-4 border-sky-500 text-lg text-zinc-800 dark:text-zinc-100 ' : 'border-l-4 border-transparent text-lg text-zinc-800 dark:text-zinc-300 hover:dark:text-zinc-100 '
 
-    const [showRoutes, setShowRoutes] = useState(false)
+    const [showRoutes, setShowRoutes] = useState(path === route.pathname)
     
     return (
         <li className='py-1'>
