@@ -47,7 +47,7 @@ const TopNav = () => {
                     </div>
                 </Container>
             </header>
-            <div className='modal-content absolute w-full h-full z-20'>
+            {/* <div className='modal-content absolute w-full h-full z-20'>
                 <div className='bg-zinc-800 modal-bg w-full h-full'>
                     <div className='flex items-center justify-center w-full h-full'>
                         <div className='modal bg-zinc-600 h-2/5 z-30 rounded-sm' style={{width: '50rem'}}>
@@ -64,7 +64,7 @@ const TopNav = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </>
     )
 }

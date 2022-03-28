@@ -1,11 +1,10 @@
 type Props = {
-    spacing: boolean;
+    spacing: boolean
 }
 
 const Text: React.FC<Props> = ({ spacing, children }) => {
-    const padding = spacing === true ? 'mb-4 ' : ''
     return (
-        <p className={padding + 'dark:text-zinc-300 leading-loose'}>
+        <p className={'dark:text-zinc-300 leading-loose' + (spacing === true && ' mb-4')}>
             {children}
         </p>
     )

@@ -1,14 +1,13 @@
 import parse from 'html-react-parser'
 
 type Props = {
-    amount: number;
+    amount: number
 }
 
 const Spacing = ({ amount }: Props) => {
-    const spacing = '&nbsp;'
     return (
         <>
-           {parse(spacing.repeat(amount))}
+           {parse('&nbsp;'.repeat(amount))}
         </>
     )
 }
