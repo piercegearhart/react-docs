@@ -28,7 +28,7 @@ const SideBar = () => {
         //         </div>
         //     }
         // </>
-        <div className='hidden lg:block h-full w-full lg:w-60 py-4 bg-zinc-100 dark:bg-zinc-800 border-r fixed border-zinc-300 dark:border-zinc-500'>
+        <div className='hidden lg:block h-full w-full lg:w-60 py-4 bg-zinc-100 dark:bg-zinc-800 border-r fixed z-10 border-zinc-300 dark:border-zinc-500'>
             <ul>
                 {Routes.map(route => (
                     <Item key={route.key} path={route.path} routes={route.subRoutes}>

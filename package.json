@@ -44,6 +44,7 @@
     ]
   },
   "devDependencies": {
+    "@types/react-instantsearch-dom": "^6.12.2",
     "@types/react-router-hash-link": "^2.4.5",
     "autoprefixer": "^10.4.4",
     "postcss": "^8.4.12",

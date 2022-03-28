@@ -13,3 +13,7 @@ html, body {
 pre {
   overflow-x: auto!important;
 }
+
+.modal-bg {
+  background-color: rgba(39, 39, 42, 0.8);
+}

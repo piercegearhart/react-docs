@@ -9,12 +9,14 @@ const generateKey = () => {
 const routes = [
     {
         name: 'Introduction',
+        description: 'Introduction on how to use the documentation template',
         path: '/introduction',
         key: generateKey(),
         element: Introduction
     },
     {
         name: 'Customization',
+        description: 'Learn how to customize the documenation template for your purposes',
         path: '/customize',
         key: generateKey(),
         element: Customize,
